@@ -1,0 +1,142 @@
+* { 
+    padding: 0%;
+    margin: 0%;
+}
+
+#carouselExampleFade {
+   
+    margin-top: 6%;
+    width: 100%;
+}
+
+.container{
+
+    color: rgb(3, 78, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* width: 1400px; */
+    height:500px;
+    width: 1400px;
+    margin-top: 1%;
+    margin-bottom: 1%;    
+}
+
+.carousel-inner {
+    width: 1200px;
+    height: 600px !important;
+     
+    /* max-width:900px; max-height:600px !important; */
+}
+
+
+nav { 
+top: 0%;
+background-color: rgba(255, 255, 255, 0.877);
+width: 100%;
+position: fixed;
+}
+
+.nav-link {
+/* background-color: rgba(255, 255, 255, 0.349); */
+color: rgb(3, 78, 56);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+border-radius: 100px;
+}
+
+.homecard {
+
+    height: 500px;
+    width: 370px;
+    float: left;
+    padding: 1px;
+    background-size: cover;
+}
+#lala {
+
+    height: 200px;
+}
+
+.card-img-overlay {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: medium;
+    text-align: end;
+    
+
+}
+
+.card-text {
+    border-radius: 20px;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.479);
+    text-align: justify;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+p {
+padding: 10px;
+text-align: justify;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.card-body {
+text-align: justify;
+
+}
+
+.card-img-top {
+    
+    background-color: black;
+    height: 200px;
+    width: 200px;
+
+}
+h1{
+    color: rgb(3, 78, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1400px;  
+    text-align: center;
+
+}
+.ttdmain {
+    background-image: url(../images/scenaryttd.jpeg);background-size: cover;
+    height: 800px;
+    width: 1500px;
+    margin-bottom: 100px;
+
+}
+.thingsTodo {
+    
+    /* border: 2px solid green; */
+    margin-left: 80px;
+    margin-right: auto;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+
+.tddimg { 
+
+    height: 300px ;
+    width: 500px;
+    border: 3px solid white;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+footer {
+/* background-color: rgb(8, 100, 69); */
+height: 10px;
+width: 1400px;
+text-align: center;
+font-size: x-small;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ 
