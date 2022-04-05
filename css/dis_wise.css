@@ -20,19 +20,21 @@ header {
 nav { 
     top: 0%;
     background-color: rgba(255, 255, 255, 0.877);
-    height: 100px;
-    width: 1024px;
+     width: 100%;
     position: fixed;
+    z-index: 99999;
    }
 
 .nav-link {
     /* background-color: rgba(255, 255, 255, 0.349); */
     color: rgb(3, 78, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     border-radius: 100px;
+
 }
 
-h2 {
+.kannur {
 
     background-color: rgb(8, 100, 69);
     background-image: url(../images/kannur_theyyam.jpeg);
@@ -44,6 +46,56 @@ h2 {
     background-size:auto;    
     background-repeat: no-repeat    ;
 }
+
+.kasargod {
+
+    background-image: url(../images/kasargod.jpeg);
+    color: white;
+    border-radius: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 420px;
+    background-size:cover;    
+    background-repeat: no-repeat    ;
+}
+
+.wayanad {
+
+    background-image: url(../images/wayanad.jpeg);
+    color: rgb(3, 78, 56);
+    border-radius: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 420px;
+    background-size:cover;    
+    background-repeat: no-repeat    ;
+    
+}
+.kozhikode {
+
+    background-image: url(../images/beach_kozhikode.jpeg);
+    color: rgb(3, 78, 56);
+    border-radius: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 420px;
+    background-size:cover;    
+    background-repeat: no-repeat    ;
+     
+}
+.malapuram {
+
+    background-image: url(../images/malapuram.jpeg);
+    color: rgb(3, 78, 56);
+    border-radius: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 420px;
+    background-size:cover;    
+    background-repeat: no-repeat    ;
+     
+}
+
 
 p {
     padding: 10px;
